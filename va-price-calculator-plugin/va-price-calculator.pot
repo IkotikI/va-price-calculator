@@ -1,0 +1,35 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VA Price Calculator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-16 23:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: va-price-calculator"
+
+#. Description of the plugin
+msgid ""
+"Custumable, half-developer plugin for making price calculator for all "
+"purpoes."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://vladislav-artyukhov.s-d-i.space/"
+msgstr ""
+
+#. Name of the plugin
+msgid "VA Price Calculator"
+msgstr ""
+
+#. Author of the plugin
+msgid "Vladislav Artyukhov"
+msgstr ""

@@ -1,0 +1,105 @@
+/* .product-quantity */
+
+.woocommerce table.shop_table td.product-quantity {
+  /*  display: flex;*/
+/*    flex-wrap: wrap;*/
+    padding: 0.6em 0.8em;
+} 
+.product-quantity .quantity, 
+.product-quantity .square {
+    margin: 0.2em 4px; 
+}
+.product-quantity .quantity {
+    float: none;
+}
+.product-quantity .quantity .units {
+    display: block;
+    float: left;
+    margin-left: 8px;
+}
+.product-quantity .square {
+    display: flex;
+    align-items: baseline;
+}
+.product-quantity label {
+    line-height: 36px;
+    width: 20px;
+}
+.product-quantity .square label {
+    margin-left: 8px;
+}
+.product-quantity input[type="number"],
+.product-quantity a.wpc-minus,
+.product-quantity a.wpc-plus {
+    width: 36px;
+    min-height: 36px;
+    background-color: transparent;
+    border: 1px solid #e4e4e4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #777;
+}
+
+.product-quantity a.wpc-minus, .product-quantity a.wpc-plus {
+    line-height: 34px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.product-quantity a.wpc-minus {
+    border-right-width: 0;
+}
+
+.product-quantity a.wpc-plus { 
+    border-left-width: 0;
+}
+
+.product-quantity input::-webkit-outer-spin-button,
+.product-quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.product-quantity input[type='number'] {
+    -moz-appearance: textfield;
+}
+.price-calculator .inputs label {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .woocommerce-cart .woocommerce table.shop_table tr td.product-quantity {
+          /*  display: flex;
+            flex-wrap: wrap;*/
+    }
+
+    .product-quantity .quantity, 
+    .product-quantity .square {
+        margin: 0;    }
+
+    .product-quantity .quantity {
+        margin-left: auto;
+    }
+    .product-quantity .square{
+        float: right;
+        margin-right: 20px;
+    }
+    .equivalently label {
+        margin-right: 4px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+
+    .product-quantity .inputs {
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-quantity .square{
+        float: right;
+        margin-right: 0px;
+    }
+}
